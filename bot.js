@@ -15,7 +15,7 @@ client.on('message', msg => {
 });
 
 function doAction(msg){
-	if msg.content.startsWith('$hello'){
+	if (msg.content.startsWith('$hello')){
 		msg.reply('lol')
 	}
 };
