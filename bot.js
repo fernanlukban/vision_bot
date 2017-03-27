@@ -4,6 +4,7 @@ const commandPrefix = '$';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
+  console.log(client.guilds);
 });
 
 client.on('message', msg => {
@@ -19,5 +20,3 @@ function doAction(msg){
 };
 
 client.login('MjkzMjU5NjQ4OTE0Njg1OTU0.C7oreg.8MWVuxlpgjU9hpU8290eYqHy-ZM');
-
-console.log(client.guilds);
