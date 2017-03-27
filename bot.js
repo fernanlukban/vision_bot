@@ -2,9 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const commandPrefix = '$';
 
-
-console.log(client.guilds);
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
 });
@@ -22,3 +19,5 @@ function doAction(msg){
 };
 
 client.login('MjkzMjU5NjQ4OTE0Njg1OTU0.C7oreg.8MWVuxlpgjU9hpU8290eYqHy-ZM');
+
+console.log(client.guilds);
